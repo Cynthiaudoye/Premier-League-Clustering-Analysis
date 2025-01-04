@@ -57,6 +57,17 @@ The project involves the following steps:
 ---
 
 ## 📊 Visualizations
-- **PCA Visualization:** Displayed team clusters in a reduced 2D space.
-- **Cluster Heatmaps:** Compared key metrics (goals, points, fouls) across clusters for both methods.
+The following visuals were used to illustrate the clustering results and provide deeper insights into the differences between Spectral Clustering and K-Means Clustering:
+
+- **PCA Visualization:** A Principal Component Analysis (PCA) plot was used to display team clusters in a reduced 2D space for both Spectral and K-Means clustering. This visual effectively highlights how teams were grouped based on performance metrics. The clear separation observed in K-Means indicates better-defined clusters compared to the more dispersed Spectral clusters.
+
+- **Performance Metrics Bar Plot:** The bar plot compares key performance metrics (Points, Total Goals, and Goal Difference) across clusters. It shows how each cluster differs in terms of average performance, emphasizing how Spectral clustering provides more granular separation, while K-Means offers broader performance distinctions.
+
+- **Discipline Metrics Bar Plot:** This plot visualizes disciplinary metrics (Yellow Cards, Red Cards, and Fouls) across clusters, highlighting the differences in discipline patterns among the clusters identified by both algorithms.
+
+- **Offensive/Defensive Activity Bar Plot:** This plot displays metrics such as Total Shots, Shots on Target, Goals Conceded, and Corners across clusters, providing insights into the offensive and defensive strengths of teams in each cluster.
+
+- **Context Metrics Bar Plot:** The rank distribution across clusters is shown in this visual to illustrate the ranking tendencies within the clusters formed by both methods.
+
+- **Cluster Heatmaps:** Heatmaps were used to summarize the average performance metrics across clusters, including points, total goals, goal difference, fouls, and shots. This visualization makes it easy to compare clusters side by side and observe patterns more effectively.
 
