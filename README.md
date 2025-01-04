@@ -42,13 +42,15 @@ The project involves the following steps:
 ---
 
 ## 📊 Key Results
-| **Metric**                    | **Spectral Clustering** | **K-Means Clustering** |
-| ------------------------------ | ----------------------- | ---------------------- |
-| Optimal Clusters (k)           | 8                      | 2                     |
-| Silhouette Score               | 0.372                  | 0.483                 |
-| Key Teams in Top Cluster       | Liverpool, Man City    | Chelsea, Liverpool, Man City |
-| Cluster Characteristics        | Granular Clustering    | Clear Performance Separation |
-| Teams per Cluster              | 11 (Top Cluster)       | 3 (Top Cluster)       |
+| **Metric**                    | **Spectral Clustering**                               | **K-Means Clustering**                   |
+| ------------------------------ | --------------------------------------------------- | --------------------------------------- |
+| **Optimal Clusters (k)**       | 9                                                   | 2                                       |
+| **Silhouette Score**           | 0.372 (moderate cluster separation)                 | 0.483 (better-defined clusters)         |
+| **Key Teams (Cluster)**        | - Cluster 0: Diverse mid-performing teams (e.g., Man United, Brighton, Wolves). <br> - Cluster 1: Top performers (Liverpool, Man City). <br> - Clusters 2-8: Individual teams with distinct characteristics (e.g., Chelsea, Arsenal, Norwich). | - Cluster 0: High performers (Chelsea, Liverpool, Man City). <br> - Cluster 1: All other teams (e.g., Man United, West Ham, Everton). |
+| **Cluster Characteristics**    | Granular clustering capturing subtle differences between teams. | Simplified segmentation with clear performance distinction. |
+| **Teams per Cluster**          | - Cluster 0: 11 teams <br> - Cluster 1: 2 teams <br> - Clusters 2-8: Single teams each | - Cluster 0: 3 teams <br> - Cluster 1: 17 teams |
+| **Key Observations**           | More detailed separation with minor performance variations. | Simplified clustering, better suited for high-level segmentation. |
+
 
 📌 **Key Insight:** K-Means clustering provided clearer team segmentation based on performance, while Graph-Based clustering captured more subtle performance differences across teams.
 
@@ -58,10 +60,3 @@ The project involves the following steps:
 - **PCA Visualization:** Displayed team clusters in a reduced 2D space.
 - **Cluster Heatmaps:** Compared key metrics (goals, points, fouls) across clusters for both methods.
 
----
-
-## 📦 Repository Structure
-├── data/ # Raw and processed datasets ├── notebooks/ # Jupyter notebooks for data preparation and clustering analysis ├── visuals/ # Visualizations generated (PCA, Heatmaps) ├── src/ # Python scripts for data preprocessing and clustering ├── reports/ # Final analysis report and findings ├── README.md # Project description and summary
-
-yaml
-Copy code
