@@ -35,9 +35,16 @@ The project involves the following steps:
    - **Graph-Based Clustering:** Constructed graphs where nodes represent teams and edges are based on performance similarity.
    - **K-Means Clustering:** Partitioned teams into distinct groups by minimizing variance.
 
-### 3. **Evaluation Metrics**
-   - **Silhouette Score:** Used to determine the optimal number of clusters and assess cluster quality.
-   - **PCA Visualization:** Plotted 2D projections of clusters for visual interpretation.
+### 3. **Evaluation Metrics and Visuals**
+   - **Silhouette Score Plot:** Used to determine the optimal number of clusters. The highest silhouette score indicates better cluster separation.
+   - **PCA Visualization:** Plotted 2D projections of clusters after dimensionality reduction, providing an overview of how teams are grouped.
+   - **Cluster Heatmap:** Illustrated key performance metrics (e.g., Points, Goals, Fouls) across clusters for both methods, emphasizing performance patterns.
+   - **Bar Charts for Performance Metrics:** Separate bar charts for Points, Goals, and Goal Difference, as well as Discipline and Offensive/Defensive statistics, were used to further break down cluster characteristics.
+   - **Teams per Cluster Distribution:** A bar chart showing the distribution of teams across clusters.
+
+### 📊 **Visual Positioning in the Report:**
+   - **Results Section:** PCA Visualization.
+   - **Appendix Section:** Silhouette Score Plot, and Cluster Heatmap.
 
 ---
 
