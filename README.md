@@ -1,4 +1,4 @@
-# 📊 Premier League Clustering Analysis (2021-2022)
+# Premier League Clustering Analysis (2021-2022)
 
 This project explores clustering techniques to analyze Premier League match data from the 2021-2022 season. Using **Graph-Based Clustering** and **K-Means Clustering**, the goal is to identify patterns and group teams based on their performance metrics. The dataset includes key statistics such as goals scored, fouls committed, and match results, offering a rich foundation for data mining and pattern discovery.
 
